@@ -37,7 +37,7 @@ provider:
       Effect: Allow
       Action:
         - "ses:SendEmail"
-      Resource: "arn:aws:ses:us-west-2:791218367116:identity/leftclick.com.au"
+      Resource: "arn:aws:ses:us-west-2:*:identity/*"
 
 functions:
   processImage:

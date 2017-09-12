@@ -1,5 +1,4 @@
 {
-	"region": "ap-southeast-2",
 	"ses": {
 		"region": "us-west-2"
 	},
@@ -9,13 +8,13 @@
 		"watermark": "watermark.png"
 	},
 	"buckets": {
-		"leftclick.dddperth-2017.uploads": "leftclick.dddperth-2017.images",
+		"leftclick.dddperth-2017.uploads-demo": "leftclick.dddperth-2017.images-demo",
 		"leftclick.dddperth-2017.uploads-dev": "leftclick.dddperth-2017.images-dev"
 	},
 	"notification": {
-		"sender": "no-reply@leftclick.com.au",
+		"sender": "ben@leftclick.com.au",
 		"recipients": [
-			"ben@leftclick.com.au"
+			"dddperth-2017-demo@mailinator.com"
 		],
 		"subject": "Image uploaded and processed",
 		"body": "A new image has been uploaded and processed: %url%"
