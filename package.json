@@ -1,0 +1,19 @@
+{
+  "name": "ddddemo",
+  "version": "1.0.0",
+  "description": "Demonstration material for DDD Perth 2017 presentation: 'Serverless Architecture at the Small Scale'",
+  "main": "app/handler.js",
+  "scripts": {
+    "test": "echo \"It's a demo, you want tests?!\" && exit 1"
+  },
+  "author": "Ben New <ben@leftclick.com.au>",
+  "license": "MIT",
+  "dependencies": {
+    "gm": "^1.23.0",
+    "s3-upload-stream": "^1.0.7"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.112.0",
+    "serverless-api-stage": "^1.1.0"
+  }
+}
