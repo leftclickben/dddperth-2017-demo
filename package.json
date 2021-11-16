@@ -13,7 +13,7 @@
     "s3-upload-stream": "^1.0.7"
   },
   "devDependencies": {
-    "aws-sdk": "^2.112.0",
+    "aws-sdk": "^2.814.0",
     "serverless-api-stage": "^1.1.0"
   }
 }
