@@ -9,7 +9,7 @@
   "author": "Ben New <ben@leftclick.com.au>",
   "license": "MIT",
   "dependencies": {
-    "gm": "^1.23.0",
+    "gm": "^1.25.0",
     "s3-upload-stream": "^1.0.7"
   },
   "devDependencies": {
